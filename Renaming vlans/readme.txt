@@ -1,8 +1,8 @@
-1. Usunięcie istniejących VLANów 101 i 120.
-2. Utworzenie nowych VLANów 901 i 920.
-3. Zamiana VLANów na interfejsach switchów accessowych.
-4. Sprawdzenie czy urządzenia się zautoryzowały - RADIUS.
+1. Remove existing VLANs 101 and 120.
+2. Creation of new VLANs 901 and 920.
+3. Swap VLANs on access switch interfaces.
+4. Checking authorized - RADIUS.
 
-W plikach txt wpisane są komendy, które mają wykonać się na poszczególnych przełącznikach.
+The txt files contain the commands to be executed on each switch.
 
-Kolejne switche dodajemy w taki sam sposób jak te istniejące.
+More switches are added in the same way as the existing ones.
