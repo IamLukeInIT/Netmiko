@@ -8,21 +8,21 @@ password = getpass('Password: ')
 
 SW9_CORE = {
     'device_type': 'cisco_ios',
-    'host': '10.19.5.1',
+    'host': '#',
     'username': user,
     'password': password,
 }
 
 SW9_1 = {
     'device_type': 'cisco_ios',
-    'host': '10.19.5.11',
+    'host': '#',
     'username': user,
     'password': password,
 }
 
 SW9_2 = {
     'device_type': 'cisco_ios',
-    'host': '10.19.5.12',
+    'host': '#',
     'username': user,
     'password': password,
 }
