@@ -9,10 +9,12 @@ vlan 920
 name VOIP
 exit
 int vlan 901
+des PC
 ip address 10.19.1.1 255.255.255.0
 ip helper-address 10.19.0.2
 no sh
 int vlan 920
+des VOIP
 ip address 10.19.20.1 255.255.255.0
 ip helper-address 10.19.0.2
 no sh
