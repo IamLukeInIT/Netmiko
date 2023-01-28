@@ -9,6 +9,7 @@ sw_1 = {
     'host':   '10.10.10.10',
     'username': user,
     'password': getpass(),
+    #ports: 48
 }
 
 cmd = "show mac address-table int"
