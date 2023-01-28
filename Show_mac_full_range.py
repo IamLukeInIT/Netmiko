@@ -1,10 +1,13 @@
 from netmiko import ConnectHandler
 from getpass import getpass
 
+user = '#'
+password = getpass('Password: ')
+
 sw_1 = {
     'device_type': 'cisco_ios',
     'host':   '10.10.10.10',
-    'username': 'username',
+    'username': user,
     'password': getpass(),
 }
 
