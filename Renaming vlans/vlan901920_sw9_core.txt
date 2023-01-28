@@ -1,0 +1,20 @@
+no vlan 101
+no int vlan 101
+no vlan 120
+no int vlan 120
+vlan 901
+name PC
+exit
+vlan 920
+name VOIP
+exit
+int vlan 901
+ip address 10.19.1.1 255.255.255.0
+ip helper-address 10.19.0.2
+no sh
+int vlan 920
+ip address 10.19.20.1 255.255.255.0
+ip helper-address 10.19.0.2
+no sh
+end
+wr

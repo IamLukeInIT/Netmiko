@@ -1,0 +1,29 @@
+int r g1/0/1-7
+sh
+no sh
+int r g1/0/9-35
+sh
+no sh
+int r g1/0/43-44
+sh
+no sh
+int r g2/0/1-30
+sh
+no sh
+int r g2/0/32-38
+sh
+no sh
+int r g2/0/41-45
+sh
+no sh
+int g2/0/47
+sh
+no sh
+int g3/0/21
+sh
+no sh
+int r g3/0/25-26
+sh
+no sh
+end
+wr
