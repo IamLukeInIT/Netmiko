@@ -1,28 +1,54 @@
 int r g1/0/1-7
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int r g1/0/9-35
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int r g1/0/43-44
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int r g2/0/1-30
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
-int r g2/0/32-38
+int r g2/0/32-38switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int r g2/0/41-45
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int g2/0/47
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int g3/0/21
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 int r g3/0/25-26
+switchport access vlan 901
+switchport voice vlan 920
+authentication event server dead action reinitialize vlan 901
 sh
 no sh
 end
