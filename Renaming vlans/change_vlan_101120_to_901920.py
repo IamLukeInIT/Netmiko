@@ -78,6 +78,22 @@ for switch in switches:
 
 #next switches...
 
+switches = [SW9_1, SW9_2,...]
+
+sh_host = 'sh run | inc hostaname'
+sh_auth = 'sh auth ses'
+
+for switch in switches:
+    with ConnectHandler(**switch) as net_connect:
+        output_hostname = net_connect.send_command(sh_host)
+        output_auth = net_connect.send_command(sh_auth)
+
+        print()
+        print(Fore.GREEN + output_hostname)
+        print(Style.RESET_ALL)
+        print(output_auth)
+        print()
+
 #closed sessions all
 net_connect.disconnect()
 print('Close SSH sesions...')
